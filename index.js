@@ -136,7 +136,7 @@ app.get('/', async (req, res) => {
 
   //sslcommerz validation 
 
-app.get('/validate', (req, res) => {
+app.get('/', (req, res) => {
     const data = {
         val_id:ADGAHHGDAKJ456454 //that you go from sslcommerz response
     };
